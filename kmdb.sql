@@ -126,6 +126,11 @@ INSERT INTO cast (
 )
 VALUES (
   "Batman Begins",
+  "Christian Bale",
+  "Bruce Wayne"
+),
+(
+    "Batman Begins",
   "Michael Caine",
   "Alfred"
 ),
