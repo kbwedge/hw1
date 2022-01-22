@@ -105,32 +105,94 @@ VALUES (
   "2005",
   "PG-13",
   "Christopher Nolan"
-);
-
-INSERT INTO movies (
-  title,
-  year,
-  rating,
-  director
-)
-VALUES (
+),
+(
   "The Dark Knight",
   "2008",
   "PG-13",
   "Christopher Nolan"
-);
-
-INSERT INTO movies (
-  title,
-  year,
-  rating,
-  director
-)
-VALUES (
+),
+(
   "The Dark Knight Rises",
   "2012",
   "PG-13",
   "Christopher Nolan"
+);
+
+INSERT INTO cast (
+  title,
+  actor,
+  character
+)
+VALUES (
+  "Batman Begins",
+  "Michael Caine",
+  "Alfred"
+),
+(
+    "Batman Begins",
+  "Liam Neeson",
+  "Ra's Al Ghul"
+),
+(
+   "Batman Begins",
+  "Katie Holmes",
+  "Rachel Dawes"
+),
+(
+   "Batman Begins",
+  "Gary Oldman",
+  "Commissioner Gordon"
+),
+(
+   "The Dark Knight",
+  "Christian Bale",
+  "Bruce Wayne"
+),
+(
+   "The Dark Knight",
+  "Heath Ledger",
+  "Joker"
+),
+(
+   "The Dark Knight",
+  "Aaron Eckhart",
+  "Harvey Dent"
+),
+(
+   "The Dark Knight",
+  "Michael Caine",
+  "Alfred"
+),
+(
+   "The Dark Knight",
+  "Maggie Gyllenhaal",
+  "Rachel Daws"
+),
+(
+   "The Dark Knight Rises",
+  "Christian Bale",
+  "Bruce Wayne"
+),
+(
+   "The Dark Knight Rises",
+  "Gary Oldman",
+  "Commissioner Gordon"
+),
+(
+   "The Dark Knight Rises",
+  "Tom Hardy",
+  "Bane"
+),
+(
+   "The Dark Knight Rises",
+  "Joseph Gordon-Levitt",
+  "John Blake"
+),
+(
+   "The Dark Knight Rises",
+  "Anne Hathaway",
+  "Selina Kyle"
 );
 
 -- Prints a header for the movies output
@@ -141,7 +203,7 @@ VALUES (
 -- The SQL statement for the movies output
 -- TODO!
 
-SELECT (*)
+SELECT *
 FROM movies;
 
 -- Prints a header for the cast output
@@ -154,5 +216,5 @@ FROM movies;
 -- The SQL statement for the cast output
 -- TODO!
 
-SELECT (*)
+SELECT *
 FROM cast;
